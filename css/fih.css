@@ -539,7 +539,16 @@ ul {
 }
 .appointement-services .box i {
     margin-right: 20px;
-    transform: translateY(5px); /* Adjust the value as needed to lower the icon */
+    transform: translateY(5px);
+    color: #FF490C;
+    position: relative;
+    display: flex;
+    background-color: #FFE4DB;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    min-width: 95px;
+    min-height: 95px;
 }
 .appointement-services .box .text {
 
@@ -571,6 +580,8 @@ ul {
 }
 .appointement-services .container .form {
     flex-basis: 50%;
+    background-color: white;
+    border-radius: 15px;
 }
 .appointement-services .container .form .content{
     text-align: center;
@@ -580,22 +591,17 @@ ul {
     
 }
 .appointement-services .container .form input,
-.appointement-services .container .form select {
+.appointement-services .container .form select,
+.appointement-services .container .form textarea {
     display: block;
     width: 100%;
-    margin-bottom: 13px;
+    margin-bottom: 21px;
     padding: 11px;
     caret-color: var(--main-color);
     border: 1px solid #ccc;
     border-radius: 50px;
 }
 .appointement-services .container .form textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 13px;
-    padding: 11px;
-    caret-color: var(--main-color);
-    border: 1px solid #ccc;
     border-radius: 12px;
     resize: none;
     height: 100px;
