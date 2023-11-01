@@ -614,3 +614,87 @@ ul {
     background-color: var(--secondary-color-alt);
 }
 /* End Appointement-Services */
+
+/*Start Testimonials*/
+.testi-main{
+    width: 100%;
+    height: 670px;
+    background-color:#317ff3de;
+}
+
+@media (max-width:767px){
+    .testi-main{
+        height: fit-content;
+    }
+}
+
+.logo-styling-testi{
+    width: 250px;
+    height: 100px;
+    margin-top: 22px;
+}
+
+@media (max-width:767px) {
+    .logo-styling-testi {
+        display: block;
+        width: 83vw;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+}
+
+.testi-texts{
+    text-align: center;
+    color: #ffffffda;
+}
+
+.testi-persons-sec{
+    width: 100%;
+}
+
+.reviewer-sec{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 300px;
+    width: 100px;
+}
+
+.testi-pic{
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    border-radius: 60px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.155);
+}
+
+@media (max-width:767px) {
+    .testi-pic {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-top:auto;
+    }
+}
+
+.testi-paragraph{
+    margin-top: 18px;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.test-persons-names{
+    margin-top: 28px;
+}
+
+.testi-names{
+    color:#ffffffe1
+}
+
+.testi-title{
+    color: rgba(228, 226, 226, 0.813);
+}
+/*End Testimonials*/
